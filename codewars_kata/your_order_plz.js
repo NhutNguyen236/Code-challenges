@@ -14,7 +14,7 @@ function order(words){
          * extract number from the element
          * push the element to the order_string with position of the extracted number and minus with 1
          */
-        var i;
+        var i;k
         for(i=0; i<words_list.length; i++){
             var pos_number = words_list[i].match(/(\d+)/);
             order_string[parseInt(pos_number[0]-1)] = words_list[i];
