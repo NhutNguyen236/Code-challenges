@@ -1,4 +1,3 @@
-import java.util.*;
 public class Shiritori
 {
     public static List<String> theGame(List<String> words)
